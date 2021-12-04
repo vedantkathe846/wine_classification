@@ -1,0 +1,21 @@
+{%extends "base.html"%} {%block title%}Prediction Page{%endblock%} {%block
+content%}
+<div class="prediction">
+  {%if predicts =='1'%}
+  <h1>KEEP TRYING!!!THIS IS A: ⭐</h1>
+  <p>With efforts and persistence excellent results can be achieved!</p>
+  {%elif predicts=='2'%}
+  <h1>OKAY!!!THIS IS A: ⭐ ⭐</h1>
+  <p>Maybe some tweaking and you'll be there!</p>
+  {%elif predicts=='3'%}
+  <h1>NICE!!!THIS IS A : ⭐ ⭐ ⭐</h1>
+  <p>Well,We're getting there eventually!</p>
+  {%elif predicts=='4'%}
+  <h1>GREAT!! THIS IS A : ⭐ ⭐ ⭐ ⭐</h1>
+  <p>Woahh! Close to perfection!</p>
+  {%else%}
+  <h1>KUDOS!!!THIS IS A : ⭐ ⭐ ⭐ ⭐ ⭐</h1>
+  <p>This is one of the absolute best of the wines out there!</p>
+  {%endif%}
+</div>
+{%endblock%}

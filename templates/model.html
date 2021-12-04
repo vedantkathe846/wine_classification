@@ -1,0 +1,42 @@
+{%extends "base.html"%} {%block title%}Model Page{%endblock%} {%block content%}
+<link rel="stylesheet" type=text/css href="/static/app.css" microtime() />
+<div class="main-container1">
+  <div class="poster">
+    <img src="/static/Black Retro Wine Testing Instagram Story.svg" alt="" />
+  </div>
+  <div class="form">
+    <h2>Test Your Wine Quality</h2>
+    <form action="#" id="join-us" method="post">
+      <div class="fields">
+        <span>
+          <input placeholder="Volatile Acidity" name="va" type="text" />
+        </span>
+        <br />
+        <span>
+          <input placeholder="Chlorides" name="cl" type="text" />
+        </span>
+        <br />
+        <span>
+          <input placeholder="Sulphur Dioxide" name="tsd" type="text" />
+        </span>
+        <br />
+        <span>
+          <input placeholder="Density" name="de" type="text" />
+        </span>
+        <br />
+        <span>
+          <input placeholder="Sulphates" name="su" type="text" />
+        </span>
+        <br />
+        <span>
+          <input placeholder="Alcohol" name="alc" type="text" />
+        </span>
+      </div>
+      <div class="submit">
+        <input class="submit" value="Submit" type="submit" />
+      </div>
+    </form>
+  </div>
+</div>
+
+{%endblock%}
